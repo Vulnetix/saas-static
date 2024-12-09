@@ -2,4 +2,13 @@
   X-Content-Type-Options: nosniff
   Referrer-Policy: no-referrer
   Permissions-Policy: document-domain=()
+  Cross-Origin-Resource-Policy: same-origin
+  Cross-Origin-Embedder-Policy: require-corp
+  Cross-Origin-Opener-Policy: same-origin
+  Referrer-Policy: strict-origin
+  Access-Control-Max-Age: 86400
+  Access-Control-Allow-Credentials: true
+  Access-Control-Allow-Methods: GET, POST, DELETE, OPTIONS
+  Access-Control-Request-Headers: accept,content-type,authorization,x-timestamp,x-vulnetix-kid,cf-connecting-ip,cf-ray,x-github-hook-id,x-github-event,x-hub-signature-256
+  Vary: Origin
   Content-Security-Policy: form-action 'self'; frame-ancestors 'none'; manifest-src 'self'; media-src 'self'; img-src 'self' https://octodex.github.com data: https://avatars.githubusercontent.com; upgrade-insecure-requests;
