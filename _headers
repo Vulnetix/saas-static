@@ -10,4 +10,4 @@
   Access-Control-Allow-Methods: GET, POST, DELETE, OPTIONS
   Access-Control-Request-Headers: accept,content-type,authorization,x-timestamp,x-vulnetix-kid,cf-connecting-ip,cf-ray,x-github-hook-id,x-github-event,x-hub-signature-256
   Vary: Origin
-  Content-Security-Policy: form-action 'self'; frame-ancestors 'none'; manifest-src 'self'; media-src 'self'; img-src 'self' https://avatar.iran.liara.run https://octodex.github.com data: https://avatars.githubusercontent.com; upgrade-insecure-requests;
+  Content-Security-Policy: form-action 'self'; frame-ancestors 'none'; manifest-src 'self'; media-src 'self'; img-src 'self' https://octodex.github.com data: https://avatars.githubusercontent.com; upgrade-insecure-requests;
